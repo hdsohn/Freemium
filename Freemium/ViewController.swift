@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func returned(segue: UIStoryboardSegue){
+    
+    }
+    
+    @IBAction func MovieListBtn(sender: AnyObject) {
+        
+        
+        
+    }
 }
 

@@ -12,16 +12,22 @@
 		F0268B401C05B20300EDF8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0268B3E1C05B20300EDF8C0 /* Main.storyboard */; };
 		F0268B421C05B20300EDF8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0268B411C05B20300EDF8C0 /* Assets.xcassets */; };
 		F0268B451C05B20300EDF8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0268B431C05B20300EDF8C0 /* LaunchScreen.storyboard */; };
+		F0268B5A1C0662A600EDF8C0 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0268B591C0662A600EDF8C0 /* MovieTableViewController.swift */; };
+		F0268B5C1C06641500EDF8C0 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0268B5B1C06641500EDF8C0 /* MovieTableViewCell.swift */; };
+		F0268B5F1C06707F00EDF8C0 /* buckingham_palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0268B5E1C06707F00EDF8C0 /* buckingham_palace.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F0268B371C05B20300EDF8C0 /* TPremium_Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPremium_Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0268B3A1C05B20300EDF8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0268B3C1C05B20300EDF8C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0268B3A1C05B20300EDF8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TPremium_Home/AppDelegate.swift; sourceTree = "<group>"; };
+		F0268B3C1C05B20300EDF8C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TPremium_Home/ViewController.swift; sourceTree = "<group>"; };
 		F0268B3F1C05B20300EDF8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0268B411C05B20300EDF8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0268B441C05B20300EDF8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0268B461C05B20300EDF8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0268B591C0662A600EDF8C0 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		F0268B5B1C06641500EDF8C0 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		F0268B5E1C06707F00EDF8C0 /* buckingham_palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckingham_palace.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,13 @@
 		F0268B2E1C05B20300EDF8C0 = {
 			isa = PBXGroup;
 			children = (
-				F0268B391C05B20300EDF8C0 /* TPremium_Home */,
+				F0268B3A1C05B20300EDF8C0 /* AppDelegate.swift */,
+				F0268B4D1C0651BB00EDF8C0 /* 0.Model */,
+				F0268B391C05B20300EDF8C0 /* 1.View */,
+				F0268B4C1C0651A700EDF8C0 /* 2.View.Ctrl */,
+				F0268B531C06533D00EDF8C0 /* 3.Custom */,
+				F0268B511C06527600EDF8C0 /* 4.Common */,
+				F0268B521C06527E00EDF8C0 /* 5.Utiil */,
 				F0268B381C05B20300EDF8C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +63,119 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0268B391C05B20300EDF8C0 /* TPremium_Home */ = {
+		F0268B391C05B20300EDF8C0 /* 1.View */ = {
 			isa = PBXGroup;
 			children = (
-				F0268B3A1C05B20300EDF8C0 /* AppDelegate.swift */,
-				F0268B3C1C05B20300EDF8C0 /* ViewController.swift */,
+				F0268B5D1C06703F00EDF8C0 /*  Supporting Files */,
+				F0268B581C06590F00EDF8C0 /* Game */,
+				F0268B431C05B20300EDF8C0 /* LaunchScreen.storyboard */,
 				F0268B3E1C05B20300EDF8C0 /* Main.storyboard */,
 				F0268B411C05B20300EDF8C0 /* Assets.xcassets */,
-				F0268B431C05B20300EDF8C0 /* LaunchScreen.storyboard */,
 				F0268B461C05B20300EDF8C0 /* Info.plist */,
 			);
+			name = 1.View;
 			path = TPremium_Home;
+			sourceTree = "<group>";
+		};
+		F0268B4C1C0651A700EDF8C0 /* 2.View.Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B3C1C05B20300EDF8C0 /* ViewController.swift */,
+				F0268B591C0662A600EDF8C0 /* MovieTableViewController.swift */,
+				F0268B5B1C06641500EDF8C0 /* MovieTableViewCell.swift */,
+				F0268B501C06525700EDF8C0 /* Detail */,
+			);
+			name = 2.View.Ctrl;
+			sourceTree = "<group>";
+		};
+		F0268B4D1C0651BB00EDF8C0 /* 0.Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B561C06572900EDF8C0 /* Parser */,
+				F0268B4F1C06523F00EDF8C0 /* Server */,
+			);
+			name = 0.Model;
+			sourceTree = "<group>";
+		};
+		F0268B4F1C06523F00EDF8C0 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		F0268B501C06525700EDF8C0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		F0268B511C06527600EDF8C0 /* 4.Common */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B541C0656ED00EDF8C0 /* Mgr */,
+			);
+			name = 4.Common;
+			sourceTree = "<group>";
+		};
+		F0268B521C06527E00EDF8C0 /* 5.Utiil */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B551C0656FB00EDF8C0 /* Lib */,
+			);
+			name = 5.Utiil;
+			sourceTree = "<group>";
+		};
+		F0268B531C06533D00EDF8C0 /* 3.Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B571C06581300EDF8C0 /* UI */,
+			);
+			name = 3.Custom;
+			sourceTree = "<group>";
+		};
+		F0268B541C0656ED00EDF8C0 /* Mgr */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mgr;
+			sourceTree = "<group>";
+		};
+		F0268B551C0656FB00EDF8C0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		F0268B561C06572900EDF8C0 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		F0268B571C06581300EDF8C0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F0268B581C06590F00EDF8C0 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		F0268B5D1C06703F00EDF8C0 /*  Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0268B5E1C06707F00EDF8C0 /* buckingham_palace.jpg */,
+			);
+			name = " Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F0268B321C05B20300EDF8C0 /* Build configuration list for PBXProject "TPremium_Home" */;
+			buildConfigurationList = F0268B321C05B20300EDF8C0 /* Build configuration list for PBXProject "Tfreemium+" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,6 +238,7 @@
 			files = (
 				F0268B451C05B20300EDF8C0 /* LaunchScreen.storyboard in Resources */,
 				F0268B421C05B20300EDF8C0 /* Assets.xcassets in Resources */,
+				F0268B5F1C06707F00EDF8C0 /* buckingham_palace.jpg in Resources */,
 				F0268B401C05B20300EDF8C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0268B3D1C05B20300EDF8C0 /* ViewController.swift in Sources */,
+				F0268B5A1C0662A600EDF8C0 /* MovieTableViewController.swift in Sources */,
+				F0268B5C1C06641500EDF8C0 /* MovieTableViewCell.swift in Sources */,
 				F0268B3B1C05B20300EDF8C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,9 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TPremium_Home/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.designus.TPremium-Home";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.designus.tfreemiumplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -258,9 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TPremium_Home/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.designus.TPremium-Home";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.designus.tfreemiumplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -268,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0268B321C05B20300EDF8C0 /* Build configuration list for PBXProject "TPremium_Home" */ = {
+		F0268B321C05B20300EDF8C0 /* Build configuration list for PBXProject "Tfreemium+" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0268B471C05B20300EDF8C0 /* Debug */,
@@ -284,6 +403,7 @@
 				F0268B4B1C05B20300EDF8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
